@@ -10,5 +10,9 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "async-data": [
+    {"id": 0, "title": "手机类"},
+    {"id": 1, "title": "电视类"}
+  ]
 }
