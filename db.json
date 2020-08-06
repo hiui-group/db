@@ -11,7 +11,7 @@
   "profile": {
     "name": "typicode"
   },
-  "async-data-all": [{
+  "data-full": [{
     "title": "Redmi系列",
     "id": "0-0",
     "children": [{
@@ -63,7 +63,7 @@
         "id": "1-2"
       }]
   }],
-  "async-data": [
+  "data-condition": [
     {"id": 0, "title": "手机系列"},
     {"id": 1, "title": "电视系列"},
     {"id": 2, "title": "Redmi系列", "pId": 0},
