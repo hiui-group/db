@@ -9,8 +9,63 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "table": {
-    "data": [ { "id": 1, "body": "some comment", "postId": 1 },  { "id": 2, "body": "some comment2", "postId": 2 }],
-    "columns": [{"title": "Column 1", "dataIndex": "name", "key": "1"}],
+    "data": [
+      { "id": 1, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
+      { "id": 2, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
+      { "id": 3, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
+      { "id": 4, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
+      { "id": 5, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
+      { "id": 6, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
+      { "id": 7, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
+      { "id": 8, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
+      { "id": 9, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
+      { "id": 10, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 }
+    ],
+    "columns": [{
+      "title": "ID",
+      "dataIndex": "id",
+      "key": "id"
+    },
+    {
+      "title": "订单号",
+      "dataIndex": "column1",
+      "key": "column1"
+    },
+    {
+      "title": "业务来源",
+      "dataIndex": "column2",
+      "key": "column2",
+      "type": "string"
+    },
+    {
+      "title": "运输方式",
+      "dataIndex": "column3",
+      "key": "column3"
+    },
+    {
+      "title": "库存",
+      "dataIndex": "stock",
+      "key": "stock",
+      "type": "number"
+    },
+    {
+      "title": "指导价格",
+      "dataIndex": "column4",
+      "key": "column4",
+      "hide": true
+    },
+    {
+      "title": "销售价格",
+      "dataIndex": "column5",
+      "key": "column5",
+      "hide": true
+    },
+    {
+      "title": "操作",
+      "width": 100,
+      "key": "action"
+    }
+  ],
     "pageInfo": {"total": 100, "pageSize": 10}
   },
   "fulldata": [{
@@ -86,6 +141,6 @@
     {"id": 13, "title": "小米MIX Alpha", "pId": 3},
     {"id": 14, "title": "小米电视 大师 65英寸OLED", "pId": 1},
     {"id": 15, "title": "Redmi 智能电视 MAX 98", "pId": 1},
-    {"id": 16, "title": "小米电视4A 60英寸'", "pId": 1}
+    {"id": 16, "title": "小米电视4A 60英寸"", "pId": 1}
   ]
 }
