@@ -8,21 +8,6 @@
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "table": {
-    "data": [
-      { "id": 1, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
-      { "id": 2, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
-      { "id": 3, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
-      { "id": 4, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
-      { "id": 5, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
-      { "id": 6, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
-      { "id": 7, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
-      { "id": 8, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
-      { "id": 9, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
-      { "id": 10, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 }
-    ],
-    "pageInfo": {"total": 100, "pageSize": 10}
-  },
   "fulldata": [{
     "id": "0",
     "title": "手机系列",
