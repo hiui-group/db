@@ -21,51 +21,6 @@
       { "id": 9, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 },
       { "id": 10, "column1": "some comment", "column3": "some comment", "stock": "some comment", "column5": "some comment", "column4": "some comment", "column2": 1 }
     ],
-    "columns": [{
-      "title": "ID",
-      "dataIndex": "id",
-      "key": "id"
-    },
-    {
-      "title": "订单号",
-      "dataIndex": "column1",
-      "key": "column1"
-    },
-    {
-      "title": "业务来源",
-      "dataIndex": "column2",
-      "key": "column2",
-      "type": "string"
-    },
-    {
-      "title": "运输方式",
-      "dataIndex": "column3",
-      "key": "column3"
-    },
-    {
-      "title": "库存",
-      "dataIndex": "stock",
-      "key": "stock",
-      "type": "number"
-    },
-    {
-      "title": "指导价格",
-      "dataIndex": "column4",
-      "key": "column4",
-      "hide": true
-    },
-    {
-      "title": "销售价格",
-      "dataIndex": "column5",
-      "key": "column5",
-      "hide": true
-    },
-    {
-      "title": "操作",
-      "width": 100,
-      "key": "action"
-    }
-  ],
     "pageInfo": {"total": 100, "pageSize": 10}
   },
   "fulldata": [{
